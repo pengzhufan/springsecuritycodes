@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="416eed10-264f-402a-8744-b195f4d528a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-01/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-01/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-01/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-01/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-01/src/main/java/com/baizhi/SpringSecurity01Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-01/src/main/java/com/baizhi/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-01/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-01/src/test/java/com/baizhi/SpringSecurity01ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/src/main/java/com/baizhi/SpringSecurity02Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/src/main/java/com/baizhi/config/MyAuthenticationFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/src/main/java/com/baizhi/config/MyAuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/src/main/java/com/baizhi/config/MyLogoutSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/src/main/java/com/baizhi/config/MyUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/src/main/java/com/baizhi/config/WebSecurityConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/src/main/java/com/baizhi/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/src/main/java/com/baizhi/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/src/main/java/com/baizhi/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/src/main/java/com/baizhi/controller/LogoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/src/main/java/com/baizhi/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/src/main/java/com/baizhi/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/src/main/java/com/baizhi/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/src/main/resources/com/baizhi/mapper/UserDaoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/src/main/resources/templates/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-02/src/test/java/com/baizhi/SpringSecurity02ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-03web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-03web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-03web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-03web/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-03web/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-03web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-03web/src/main/java/com/baizhi/SpringSecurity03webApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-03web/src/main/java/com/baizhi/config/MvcConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-03web/src/main/java/com/baizhi/config/SecurityConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-03web/src/main/java/com/baizhi/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-03web/src/main/java/com/baizhi/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-03web/src/main/java/com/baizhi/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-03web/src/main/java/com/baizhi/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-03web/src/main/java/com/baizhi/service/MyUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-03web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-03web/src/main/resources/com/baizhi/mapper/UserDaoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-03web/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-03web/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-03web/src/test/java/com/baizhi/SpringSecurity03webApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-04split/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-04split/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-04split/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-04split/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-04split/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-04split/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-04split/src/main/java/com/baizhi/SpringSecurity04splitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-04split/src/main/java/com/baizhi/config/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-04split/src/main/java/com/baizhi/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-04split/src/main/java/com/baizhi/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-04split/src/main/java/com/baizhi/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-04split/src/main/java/com/baizhi/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-04split/src/main/java/com/baizhi/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-04split/src/main/java/com/baizhi/service/MyUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-04split/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-04split/src/main/resources/com/baizhi/mapper/UserDaoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-04split/src/test/java/com/baizhi/SpringSecurity04splitApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-05web-verifycode/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-05web-verifycode/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-05web-verifycode/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-05web-verifycode/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-05web-verifycode/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-05web-verifycode/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-05web-verifycode/src/main/java/com/baizhi/SpringSecurity05webVerifycodeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-05web-verifycode/src/main/java/com/baizhi/config/KaptchaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-05web-verifycode/src/main/java/com/baizhi/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-05web-verifycode/src/main/java/com/baizhi/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-05web-verifycode/src/main/java/com/baizhi/controller/VerifyCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-05web-verifycode/src/main/java/com/baizhi/security/exception/KaptchaNotMatchException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-05web-verifycode/src/main/java/com/baizhi/security/filter/KaptchaFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-05web-verifycode/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-05web-verifycode/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-05web-verifycode/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-05web-verifycode/src/test/java/com/baizhi/SpringSecurity05webVerifycodeApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-06split-verifycode/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-06split-verifycode/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-06split-verifycode/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-06split-verifycode/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-06split-verifycode/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-06split-verifycode/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-06split-verifycode/src/main/java/com/baizhi/SpringSecurity06splitVerifycodeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-06split-verifycode/src/main/java/com/baizhi/config/KaptchaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-06split-verifycode/src/main/java/com/baizhi/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-06split-verifycode/src/main/java/com/baizhi/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-06split-verifycode/src/main/java/com/baizhi/controller/VerifyCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-06split-verifycode/src/main/java/com/baizhi/security/exception/KaptchaNotMatchException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-06split-verifycode/src/main/java/com/baizhi/security/filter/LoginKaptchaFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-06split-verifycode/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-06split-verifycode/src/test/java/com/baizhi/SpringSecurity06splitVerifycodeApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-07password/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-07password/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-07password/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-07password/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-07password/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-07password/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-07password/src/main/java/com/blr/SpringSecurity07passwordApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-07password/src/main/java/com/blr/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-07password/src/main/java/com/blr/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-07password/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-07password/src/test/java/com/blr/TestPasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-08rememberMe/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-08rememberMe/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-08rememberMe/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-08rememberMe/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-08rememberMe/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-08rememberMe/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-08rememberMe/src/main/java/com/blr/SpringSecurity08rememberMeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-08rememberMe/src/main/java/com/blr/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-08rememberMe/src/main/java/com/blr/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-08rememberMe/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-08rememberMe/src/test/java/com/blr/SpringSecurity08rememberMeApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-09rememberMe-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-09rememberMe-web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-09rememberMe-web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-09rememberMe-web/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-09rememberMe-web/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-09rememberMe-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-09rememberMe-web/src/main/java/com/blr/SpringSecurity09rememberMeWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-09rememberMe-web/src/main/java/com/blr/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-09rememberMe-web/src/main/java/com/blr/config/WebMvcConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-09rememberMe-web/src/main/java/com/blr/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-09rememberMe-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-09rememberMe-web/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-09rememberMe-web/src/test/java/com/blr/springsecurity09remembermeweb/SpringSecurity09rememberMeWebApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-10rememberMe-split/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-10rememberMe-split/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-10rememberMe-split/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-10rememberMe-split/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-10rememberMe-split/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-10rememberMe-split/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-10rememberMe-split/src/main/java/com/blr/SpringSecurity10rememberMeSplitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-10rememberMe-split/src/main/java/com/blr/config/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-10rememberMe-split/src/main/java/com/blr/config/MyPersistentTokenBasedRememberMeServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-10rememberMe-split/src/main/java/com/blr/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-10rememberMe-split/src/main/java/com/blr/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-10rememberMe-split/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-10rememberMe-split/src/test/java/com/blr/SpringSecurity10rememberMeSplitApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-11session-management/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-11session-management/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-11session-management/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-11session-management/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-11session-management/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-11session-management/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-11session-management/src/main/java/com/blr/SpringSecurity11sessionManagementApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-11session-management/src/main/java/com/blr/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-11session-management/src/main/java/com/blr/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-11session-management/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-11session-management/src/test/java/com/blr/SpringSecurity11sessionManagmentApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-attack/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-attack/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-attack/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-attack/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-attack/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-attack/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-attack/src/main/java/com/blr/SpringSecurity12csrfAttackApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-attack/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-attack/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-attack/src/test/java/com/blr/SpringSecurity12csrfAttackApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-blank/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-blank/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-blank/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-blank/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-blank/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-blank/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-blank/src/main/java/com/blr/SpringSecurity12csrfBlankApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-blank/src/main/java/com/blr/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-blank/src/main/java/com/blr/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-blank/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-12csrf-blank/src/test/java/com/blr/SpringSecurity12csrfBlankApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-split/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-split/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-split/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-split/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-split/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-split/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-split/src/main/java/com/blr/SpringSecurity13csrfSplitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-split/src/main/java/com/blr/config/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-split/src/main/java/com/blr/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-split/src/main/java/com/blr/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-split/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-split/src/test/java/com/blr/SpringSecurity13csrfSplitApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-web/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-web/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-web/src/main/java/com/blr/SpringSecurity13csrfWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-web/src/main/java/com/blr/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-web/src/main/java/com/blr/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-web/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-13csrf-web/src/test/java/com/blr/SpringSecurity13csrfWebApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/local/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="/usr/local/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="29CjciMe4EyFGYC9lsaOjlGfCsw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="debugger.hotswap" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="416eed10-264f-402a-8744-b195f4d528a0" name="Default Changelist" comment="" />
+      <created>1652624042950</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652624042950</updated>
+      <workItem from="1652624044099" duration="682000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
