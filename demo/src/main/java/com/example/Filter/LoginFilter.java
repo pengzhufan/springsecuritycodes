@@ -22,6 +22,8 @@ public class LoginFilter extends UsernamePasswordAuthenticationFilter {
     @Resource
     private RedisTemplate redisTemplate;
 
+    public final String KAPCHA="KAPCHA";
+
     @Override
     public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException {
         //只能post
@@ -41,7 +43,7 @@ public class LoginFilter extends UsernamePasswordAuthenticationFilter {
             String kaptcha = userInfo.get("kaptcha");
             String key = userInfo.get("key");
 
-            String kaptchaSession= (String) redisTemplate.opsForValue().get("kaptcha"+key);
+            String kaptchaSession= (String) redisTemplate.opsForValue().get(KAPCHA+key);
 
             //String kaptchaSession= (String) request.getSession().getAttribute("kaptcha");
             if (!kaptcha.equalsIgnoreCase(kaptchaSession)){
